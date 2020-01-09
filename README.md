@@ -1,12 +1,12 @@
-# SIBS
-Sistema Integrado de Bancos de Sangre
+# Inblood
+Sistema que permite la interacción entre potenciales donantes y un banco de sangre para que se lleven a cabo las donaciones de sangre.
 
 ## Instalación
 
 1. Abrir terminal donde se quiere crear la carpeta del proyecto
 2. Clonar repositorio de GitHub
 ```bash
-git clone https://github.com/chuquimm/inblood.git
+git clone https://github.com/yodonante/inblood
 cd inblood
 ```
 3. Correr dependencias
@@ -38,16 +38,17 @@ php artisan storage:link
 
 1. [laravel-permission](https://github.com/spatie/laravel-permission) : Para el uso de roles y permisos.
 
+## Solución a errores comunes:
 
+### Errores de Vue: 
 
-<!-- <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+#### - Error code ELIFECYCLE ####
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+1. Ejecutar en la consola:  ```npm cache clean --force```
+2. Eliminar carpeta ```node_modules```
+3. Eliminar archivo ```package-lock.json```
+4. Ejecutar en la consola:  ```npm install```
+
 
 ## About Laravel
 
