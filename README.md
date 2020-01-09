@@ -1,3 +1,7 @@
+<p align="center">
+    <img height="100px" widht="100px" src="https://yodonante.com/wp-content/uploads/2018/09/yodonante-nuevo-mockup-07.png">
+</p>
+
 # Inblood
 Sistema que permite la interacción entre potenciales donantes y un banco de sangre para que se lleven a cabo las donaciones de sangre.
 
